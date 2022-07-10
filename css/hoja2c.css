@@ -1,0 +1,86 @@
+* { padding: 0;
+margin: 0;
+box-sizing: border-box;}
+/* selecctor universal */
+
+header { background-color: blue; color:white; text-align: center;}
+/* estilos del encabezado */
+section h2{ background-color: black; color: aliceblue; text-align: center;margin: 15px;}
+/* clase creada para el cuerpo del trabajo */
+.card { color: rgb(34, 29, 28);
+background: rgb(236, 165, 165) ; 
+width: 300px;
+margin: 0 auto;
+height: 0 auto;
+padding: 20px;
+margin-top: 12px;
+border-radius:20px ;
+box-shadow: 10px 10px 10px blue ;
+}
+.card img { width: 100%;
+border-radius: inherit;
+object-fit: cover; 
+filter: grayscale(100%);
+}
+
+.card img:hover { filter: grayscale(0%);}
+
+.titulo { font-size: 18px ; margin-top: 10px ; margin-bottom: 10px; text-align: center;}
+
+.parrafo { text-align: justify; text-transform: uppercase;font-family: 'Times New Roman', Times, serif;}
+
+.btn {display: block; background-color: blueviolet; color: azure; padding: 15px;text-decoration:none ; text-align: center; border-radius: 15px; margin-top: 20px;}
+.btn:hover {background-color: black; }
+
+/* contenedor de la pagina, lo que hace que la seccion se divida en 4 partes */
+.contenedor { position: relative; display: flex; justify-content: center; flex-wrap: wrap;}
+
+.card iframe { width: 100%;
+    border-radius: inherit;
+    object-fit: cover; 
+    filter: grayscale(1%);
+    }
+/*section audio { display: none;} etiqueta para que el audio suene y la persona no pueda cancelar el sonido*/
+main { background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(238,169,21,0.3169642857142857) 100%);}
+    /* tablas  */
+    
+    table { width: 80%; background-color: bisque;font-size: 22px; border:5px solid black;border-spacing: 0; margin: 0 auto; margin-top: 10px; }
+    table caption { background-color: aquamarine; padding:12px;  }
+    table thead { color: bisque; background-color: black;}
+    table tr th, table tr td { padding: 16px ; font-family: Georgia, 'Times New Roman', Times, serif; border: 2px solid gray; }
+    table tr:nth-child(even) {background-color: rgb(153, 216, 200);}
+    table td:nth-child(6) { text-align: center;}
+    tbody tr:hover { background-color:yellowgreen ;}
+    table td:nth-child(1) { text-transform: uppercase;}
+
+    .p01 {  width: 50%; background-color: rgb(70, 41, 6);font-size: 15px; border:5px solid black;border-spacing: 0; margin: 0 auto; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    .p01 caption { background-color: rgb(149, 209, 189); padding:12px;  }
+    .p01 table thead { color: rgb(98, 211, 32); background-color: rgb(206, 103, 103);}
+    .p01 tr:hover { background-color:rgb(246, 247, 244) ;}
+    .p01 tr th,.p02 tr td { padding: 16px ; font-family: Georgia, 'Times New Roman', Times, serif; border-style: 5px dotted rgb(184, 70, 70); }
+
+    .p02 {  width: 60%; background-color: rgb(233, 214, 192);font-size: 10px; border:5px double rgb(207, 130, 130);border-spacing: 0; margin: 0 auto; margin-top: 10px; font-family:sans-serif}
+    .p02 caption { background-color: rgb(20, 250, 173); padding:8px;  }
+    .p02 table thead { color: rgb(98, 211, 32); background-color: rgb(206, 103, 103);}
+    .p02 tr:hover { background-color:rgb(205, 50, 109) ;}
+   .p02 th:nth-child(4) { text-align: center;}
+   .p02 th:nth-child(3) { text-align: center;}
+
+   .contenido { background-color: rgb(111, 111, 184); padding-top: 15px;
+                width: 70%;
+            margin: 0 auto;}
+   .lista { padding:50px ; list-style-type: lower-latin;}
+   .lista2 { background-color: black; color: blanchedalmond;}
+
+   .contenedorform { background-color:white ; width: 60%; margin: 10px auto; padding:15px ; box-shadow: 4px 10px 10px blue ;}
+  .contenedorform h3 {padding:15px ; text-align:center; font-size: xx-large;}
+   .input label { display: block; font-weight: bold; padding: 8px;}
+.input input { display: block; width: 100%;border: 3px solid green; height: 25px; border-radius: 4px;}
+.linea { border: 2px solid rgb(219, 85, 32); border-style: dotted;}
+.boton { display: block; width:100% ; padding: 10px; margin:5px ;}
+.black { color: bisque ; background-color: black;}
+.blue { color: bisque ; background-color: rgb(19, 16, 196);}
+.chek { display:block; text-align: center;}
+.twit {background-color: rgb(59, 172, 187);}
+   footer { padding:200px; }

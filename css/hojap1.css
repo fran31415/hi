@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    color: azure;
+}
+
+main {
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* BOX MODEL EN PARRAFO */
+.parrafo {
+    text-align: justify;
+    /* acceso directo
+    Arriba derecha abajo izquierda */
+    padding: 20px;
+
+    /* padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 4px;
+    padding-left: 5px; */
+
+    /* acceso directo
+    tamaño tipo de borde color del borde */
+    /* border: 5px solid rgba(11, 211, 58, 0.83); */
+    /* ARRIBA, DERECHA, ABAJO E IZQUIERDA */
+    border-width: 20px 5px 10px 30px;
+    /* border-top-width: 5px;
+    border-right-width: 30px;
+    border-bottom-width: 20px;
+    border-left-width: 0px; */
+
+    /* ARRIBA, DERECHA, ABAJO E IZQUIERDA */
+
+    border-style: dashed groove solid double;
+    /*  border-top-style: groove;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: dotted; */
+    /* ARRIBA, DERECHA, ABAJO E IZQUIERDA */
+    border-color: red yellow blue black;
+
+    /*  border-top-color: rgb(7, 218, 7);
+    border-bottom-color: rgb(7, 8, 7);
+    border-right-color: rgb(213, 8, 52);
+    border-left-color: rgb(244, 216, 7); */
+/* son margenes exteriores al usar esta funcion de marger */
+    margin: 10px 30px 10px 10px;
+}
+.personal { background-color:
+border: 15px solid rgb(190, 162, 3);
+padding: 15;}
+.personal p { text-align: justify; 
+} 
+.personal img { width:450px ;height: 250px;  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid;
+    border-color:yellow black blue green;
+    border-top-style: dashed;
+    border-left-style:groove;
+    border-bottom-style:double;
+   }
+   
